@@ -1,7 +1,6 @@
 #import "@preview/basic-resume:0.2.8": *
 
-// Put your personal information here, replacing mine
-#let name = "Sokhibjon Orzikulov"
+#let name = "Sokhibjon Orzikulov (Orzklv)"
 #let location = "Tashkent, Uzbekistan"
 #let email = "sakhib@orzklv.uz"
 #let github = "github.com/orzklv"
@@ -35,47 +34,74 @@
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
 */
-== Education
-
-#edu(
-  institution: "Westminster University",
-  location: "Tashkent, Uzbekistan",
-  dates: dates-helper(start-date: "Sep 2019", end-date: "Mar 2024"),
-  degree: "Bachelor's of Science, Business Information System",
-  consistent: true
-)
-- Grade: Upper Second class honours | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
-- Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
-
-#edu(
-  institution: "Academic Lyceum of Wesminster International University in Tashkent",
-  location: "Tashkent, Uzbekistan",
-  dates: dates-helper(start-date: "Sep 2017", end-date: "May 2019"),
-  degree: "General Studies",
-  consistent: true
-)
-- Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
-- Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
-
-
 
 == Work Experience
 
 #work(
-  title: "Subatomic Shepherd and Caffeine Connoisseur",
-  location: "Atomville, CA",
-  company: "Microscopic Circus, Schrodinger's University",
-  dates: dates-helper(start-date: "May 2024", end-date: "Present"),
+  title: "Community Lead & Maintainer",
+  location: "Tashkent, Uzbekistan",
+  company: "Floss Uzbekistan",
+  dates: dates-helper(start-date: "Apr 2025", end-date: "Present"),
 )
 - Played God with tiny molecules, making them dance to uncover the secrets of the universe
 - Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
 - Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
 
 #work(
-  title: "AI Wrangler and Code Ninja",
-  location: "Silicon Mirage, CA",
-  company: "Organic Stupidity Startup",
-  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
+  title: "Head of Open Source Team & Movement",
+  location: "Tashkent, Uzbekistan",
+  company: "Uzinfocom",
+  dates: dates-helper(start-date: "Apr 2025", end-date: "Present"),
+)
+- Played God with tiny molecules, making them dance to uncover the secrets of the universe
+- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
+- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+
+#work(
+  title: "Embedded Software Engineer",
+  location: "Tashkent, Uzbekistan",
+  company: "Uzinfocom",
+  dates: dates-helper(start-date: "Sep 2024", end-date: "Apr 2025"),
+)
+- Played God with tiny molecules, making them dance to uncover the secrets of the universe
+- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
+- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+
+#work(
+  title: "Low Level & Rust Software Engineer",
+  location: "Tashkent, Uzbekistan",
+  company: "Uzinfocom",
+  dates: dates-helper(start-date: "Jul 2023", end-date: "Sep 2024"),
+)
+- Played God with tiny molecules, making them dance to uncover the secrets of the universe
+- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
+- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+
+#work(
+  title: "Development Team Lead",
+  location: "Tashkent, Uzbekistan",
+  company: "Uzinfocom",
+  dates: dates-helper(start-date: "Oct 2022", end-date: "Jun 2023"),
+)
+- Played God with tiny molecules, making them dance to uncover the secrets of the universe
+- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
+- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+
+#work(
+  title: "Software Engineer",
+  location: "Tashkent, Uzbekistan",
+  company: "Uzinfocom",
+  dates: dates-helper(start-date: "Apr 2022", end-date: "Oct 2022"),
+)
+- Played God with tiny molecules, making them dance to uncover the secrets of the universe
+- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
+- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+
+#work(
+  title: "Lead Open Source Engineer",
+  location: "Remote",
+  company: "GitHub, Open Source",
+  dates: dates-helper(start-date: "Oct 2019", end-date: "Mar 2022"),
 )
 - Taught robots to predict when (and how much!) humans will empty their wallets at the doctor's office
 - Developed HIPAA-compliant digital signatures, because doctors' handwriting wasn't illegible enough already
@@ -101,20 +127,60 @@
 - Conducted researches on assembly optimizations with professors at the university.
 - Built variety categories of projects using C/C++ to support growing infrastructures.
 
-== Projects
+== Notable Projects
 
 #project(
-  name: "Hyperschedule",
+  name: "Xinux Community & Linux Distro (Before Acquisition)",
   // Role is optional
   role: "Maintainer",
   // Dates is optional
-  dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
+  dates: dates-helper(start-date: "Dec 2020", end-date: "Apr 2022"),
   // URL is also optional
-  url: "hyperschedule.io",
+  url: "https://xinux.uz",
 )
-- Maintain open-source scheduler used by 7000+ users at the Claremont Consortium with TypeScript, React and MongoDB
-  - Manage PR reviews, bug fixes, and coordinate with college for releasing scheduling data and over \$1500 of yearly funding
-- Ensure 99.99% uptime during peak loads of 1M daily requests during course registration through redundant servers
+- Founded and shaped a community of Linux enthusiasts which become the only community to contribute to global Linux related projects & communities.
+- Taught early generation of members to fundamentals of Linux and its internals using Arch Linux.
+- Developed various community assistants (e.g telegram bots) to help newcomers with learning materials and resources.
+- Developed early version of Xinux, an Arch Linux based Linux distribution, DX oriented operating system.
+- Initiated localization project aimed to translate Linux ecosystem to Uzbek language.
+- Developed various components and utilities for easier adoption:
+  - greeter on top of lightdm-webkit2
+  - calamares installer fork
+  - aptpac fork
+  - mirror-picker for mirror automation
+  - package manager on top of pacman
+  - sdk on typescript for arch linux package registry
+
+#project(
+  name: "Sark (Sokhibjon's ARM RaspberryPi Kernel)",
+  // Role is optional
+  role: "Maintainer",
+  // Dates is optional
+  dates: dates-helper(start-date: "Dec 2024", end-date: "Present"),
+  // URL is also optional
+  url: "https://sark.kibertexnik.uz/kernel/",
+)
+- In attempt to reduce size of Linux kernel, I developed kernel on Rust for Raspberry Pi model 3, 4, 5.
+  - Implemented safe globals and synchronization
+  - Implemented drivers:
+    - GPIO
+    - UART
+  - Implemented BSPs, timestamps and console.
+
+#project(
+  name: "Osmon Programming Language",
+  // Role is optional
+  role: "Maintainer",
+  // Dates is optional
+  dates: dates-helper(start-date: "Apr 2021", end-date: "May 2023"),
+  // URL is also optional
+  url: "https://github.com/osmon-lang",
+)
+- Maintained the project which had its own community consisting more than 100+ users in its peak.
+- Implemented programming language frontend using uzbek language on Rust for further integration with language's hybrid backend infrastructure.
+- Implemented registry based virtual machine on Rust for integration with interpreter.
+- Implemented libgccjit bindings for the rust for further AOT implementation.
+- Implemented fundamental standard library for the language to be able to write something on it (with cli example).
 
 == Extracurricular Activities
 
@@ -127,7 +193,7 @@
   - Developed a service "Maestro" for staffs use to make LDAP logging and network management easier.
   - Co-authored uzbek linguistic libraries and platforms written on Rust namely "Korrektor".
   - Co-authored onvif protocol implementation on PHP.
-  - Participated in development of microcomputer on top of Atmega328 that can let users write and execute assembly instructions.
+  - Participated in development of microcomputer using Atmega328 that can let users write and execute assembly instructions.
   - Developed projects within the interest of other departments including websites and tools.
 - Open Sourced the early implementation of RDAP protocol written on TypeScript/Deno for the uzbek internet.
 
@@ -161,6 +227,21 @@
   - Custom Protocol on top of Layer 4 for internet data & traffic exchange named "Kolyma's Jail Protocol".
 - Hardware provision and monitoring for further locally hosted projects.
 
+== Education
+
+#edu(
+  institution: "Westminster University (Not to be associated)",
+  location: "Tashkent, Uzbekistan",
+  dates: dates-helper(start-date: "Sep 2019", end-date: "Mar 2024"),
+  degree: "Bachelor's of Science, Business Information System",
+  consistent: true
+)
+- Grade: Upper Second class honours
+- Relevant Coursework: Data Structures, Program Development, Application of Business in IT, Statistics: Core, Computer Science Fundamentals, Systems Engineering.
+- Paperwork: Programming language compiler engineering & hybrid compilation.
+
+Additional: My time at Westminster International University in Tashkent was unproductive due to an outdated curriculum, a narrow focus on Object-Oriented Programming, and excessive reliance on Microsoft products. The program failed to cover essential paradigms like Functional and Imperative programming, and innovation was often discouraged. Administrative responsiveness to student concerns was lacking, making constructive feedback ineffective. Given these shortcomings, I cannot recommend this university to those serious about an IT career. I kindly request not to be associated with this institution, as I do not recognize the years I spent there.
+
 #certificates(
   name: "WIUT Graduation",
   issuer: "WIUT UK",
@@ -168,8 +249,18 @@
   date: "May 2024",
 )
 
+#edu(
+  institution: "Academic Lyceum of Wesminster International University in Tashkent",
+  location: "Tashkent, Uzbekistan",
+  dates: dates-helper(start-date: "Sep 2017", end-date: "May 2019"),
+  degree: "General Studies",
+  consistent: true
+)
+- Cumulative GPA: 3.3\/4.0
+- General Studies: Algebra, Geometry, Calculus, Statistics, Physics, Chemistry, Foreign & Native Languages: English, Russian, Uzbek.
+
 == Skills
 - *Programming Languages*: Rust, C/C++, Objective-C, Swift, Assembly, Nix, Bash, JavaScript, TypeScript, Python
-- *Technologies*: NixOS, Linux, FreeBSD, MacOS (Darwin), UNIX, Git, Docker, Caddy, NGINX, Yew, React, Tailwind CSS
+- *Technologies*: NixOS, Linux, FreeBSD, MacOS (Darwin), UNIX, LLVM, Git, Docker, Caddy, NGINX, Actix, Yew, React, Tailwind CSS
 - *Development*: Operating Systems, Embedded, Kernel, Programming Language, Web
 - *Activities*: Open Source, Community Development, Maintainership, Leading Development, Software Designing, Engineering
