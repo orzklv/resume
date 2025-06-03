@@ -1,0 +1,16 @@
+name: "Build CI"
+
+on: [push, pull_request]
+
+jobs:
+  tests:
+    runs-on: macos-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Build nix package
+        run: nix build .

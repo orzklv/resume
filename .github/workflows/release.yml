@@ -1,0 +1,33 @@
+name: "Release CI"
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  tests:
+    runs-on: macos-latest
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Build nix package
+        run: nix build .
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Resume ${{ github.ref_name }}
+          tag_name: ${{ github.ref_name }}
+          files: result/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
