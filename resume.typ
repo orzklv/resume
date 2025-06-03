@@ -38,16 +38,26 @@
 == Education
 
 #edu(
-  institution: "Harvey Mudd College",
-  location: "Claremont, CA",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2027"),
-  degree: "Bachelor's of Science, Computer Science and Mathematics",
+  institution: "Westminster University",
+  location: "Tashkent, Uzbekistan",
+  dates: dates-helper(start-date: "Sep 2019", end-date: "Mar 2024"),
+  degree: "Bachelor's of Science, Business Information System",
+  consistent: true
+)
+- Grade: Upper Second class honours | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
+- Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
 
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  // consistent: true
+#edu(
+  institution: "Academic Lyceum of Wesminster International University in Tashkent",
+  location: "Tashkent, Uzbekistan",
+  dates: dates-helper(start-date: "Sep 2017", end-date: "May 2019"),
+  degree: "General Studies",
+  consistent: true
 )
 - Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
 - Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
+
+
 
 == Work Experience
 
@@ -72,10 +82,10 @@
 - Turned spaghetti code into a gourmet dish, making other interns drool with envy
 
 #work(
-  title: "Digital Playground Architect",
-  location: "The Cloud",
-  company: "Pixels & Profit Interactive",
-  dates: dates-helper(start-date: "Jun 2020", end-date: "May 2023"),
+  title: "Freelance Software Engineer",
+  location: "Remote",
+  company: "Freelancer.com",
+  dates: dates-helper(start-date: "Feb 2017", end-date: "Sep 2019"),
 )
 - Scaled user base from 10 to 2000+, accidentally becoming a small wealthy nation in the process
 - Crafted Bash scripts so clever they occasionally made other engineers weep with joy
@@ -83,13 +93,13 @@
 - Built a documentation site that actually got read, breaking the ancient RTFM curse
 
 #work(
-  title: "Code Conjurer Intern",
-  location: "Silicon Suburb, CA",
-  company: "Bits & Bytes Consulting",
-  dates: dates-helper(start-date: "Jun 2022", end-date: "Aug 2022"),
+  title: "Intern Developer & Staff",
+  location: "Tashkent, Uzbekistan",
+  company: "INHA University in Tashkent",
+  dates: dates-helper(start-date: "Dec 2014", end-date: "May 2016"),
 )
-- Developed a cross-platform mobile app that turned every user into a potential paparazzi
-- Led a security overhaul, heroically saving the company from the menace of "password123"
+- Conducted researches on assembly optimizations with professors at the university.
+- Built variety categories of projects using C/C++ to support growing infrastructures.
 
 == Projects
 
@@ -109,27 +119,57 @@
 == Extracurricular Activities
 
 #extracurriculars(
-  activity: "Capture The Flag Competitions",
+  activity: "Uzinfocom Open Source",
   dates: dates-helper(start-date: "Jan 2021", end-date: "Present"),
 )
-- Founder of Les Amateurs (#link("https://amateurs.team")[amateurs.team]), currently ranked \#4 US, \#33 global on CTFTime (2023: \#4 US, \#42 global)
-- Organized AmateursCTF 2023 and 2024, with 1000+ teams solving at least one challenge and \$2000+ in cash prizes
-  - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
-- Qualified for DEFCON CTF 32 and CSAW CTF 2023, two of the most prestigious cybersecurity competitions globally
+- Convinced Adminsitration to do open source development (before the official department was established within the company).
+- Developed and participated in various kinds of experiments including:
+  - Developed a service "Maestro" for staffs use to make LDAP logging and network management easier.
+  - Co-authored uzbek linguistic libraries and platforms written on Rust namely "Korrektor".
+  - Co-authored onvif protocol implementation on PHP.
+  - Participated in development of microcomputer on top of Atmega328 that can let users write and execute assembly instructions.
+  - Developed projects within the interest of other departments including websites and tools.
+- Open Sourced the early implementation of RDAP protocol written on TypeScript/Deno for the uzbek internet.
 
-// #extracurriculars(
-//   activity: "Science Olympiad Volunteering",
-//   dates: "Sep 2023 --- Present"
-// )
-// - Volunteer and write tests for tournaments, including LA Regionals and SoCal State \@ Caltech
+#extracurriculars(
+  activity: "Uzinfocom RnD",
+  dates: dates-helper(start-date: "Jul 2023", end-date: "Sep 2024"),
+)
+- Researched technologies & tech stacks within the interest of the company.
+- Supported and maintained blockchain infrastructure built on top of Ethereum.
+- Engineered and supported devops infrastructure for the projects maintained by the team.
 
-// #certificates(
-//   name: "OSCP",
-//   issuer: "Offensive Security",
-//   // url: "",
-//   date: "Oct 2024",
-// )
+#extracurriculars(
+  activity: "Mad Maids",
+  dates: dates-helper(start-date: "Feb 2020", end-date: "Aug 2023"),
+)
+- Founded and Led the club within the Westminster Internation University in Tashkent which contained top ranking developers studying at the university.
+- Organized / Hosted various kind of technical events for hackers studying at the university.
+- Renovated university's existing infrastructure including LMS and Student Record System using modern technology which led to 50% of the overall university's internet traffic.
+- Participated in university's module programme administration & governance.
+- Funded & Sponsored other clubs' activities.
+- Developed various categories of freemium & open source software for students use which had more than 800+ users (1/3 of overall students styuding at the university).
+
+#extracurriculars(
+  activity: "Khakimov's Family",
+  dates: dates-helper(start-date: "Jan 2017", end-date: "Present"),
+)
+- Managing infrastructure and datacenter namely #link("https://github.com/kolyma-labs")[Kolyma] founded and owned by Khakimovs Family.
+- DevOps and created software for the infrastructure support including:
+  - NAT Traversal.
+  - Proxy for the web.
+  - Custom Protocol on top of Layer 4 for internet data & traffic exchange named "Kolyma's Jail Protocol".
+- Hardware provision and monitoring for further locally hosted projects.
+
+#certificates(
+  name: "WIUT Graduation",
+  issuer: "WIUT UK",
+  url: "https://veri.westminster.ac.uk/?reference=78393204-01-A68N",
+  date: "May 2024",
+)
 
 == Skills
-- *Programming Languages*: JavaScript, Python, C/C++, HTML/CSS, Java, Bash, R, Flutter, Dart
-- *Technologies*: React, Astro, Svelte, Tailwind CSS, Git, UNIX, Docker, Caddy, NGINX, Google Cloud Platform
+- *Programming Languages*: Rust, C/C++, Objective-C, Swift, Assembly, Nix, Bash, JavaScript, TypeScript, Python
+- *Technologies*: NixOS, Linux, FreeBSD, MacOS (Darwin), UNIX, Git, Docker, Caddy, NGINX, Yew, React, Tailwind CSS
+- *Development*: Operating Systems, Embedded, Kernel, Programming Language, Web
+- *Activities*: Open Source, Community Development, Maintainership, Leading Development, Software Designing, Engineering
