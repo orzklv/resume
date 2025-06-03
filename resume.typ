@@ -43,34 +43,51 @@
   company: "Floss Uzbekistan",
   dates: dates-helper(start-date: "Apr 2025", end-date: "Present"),
 )
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+- Founded the organization and its team structure, principles.
+- Created standartization process for communities to follow.
+- Authored 3 standards implemented during standartization process.
+- Convinced more than 9 community owners to join a unified network which exceeds more than 7557+ members overall.
+- Co-authored & contributed to more than 50+ projects hosted, provided and sponsored by Floss Uzbekistan.
 
 #work(
   title: "Head of Open Source Team & Movement",
   location: "Tashkent, Uzbekistan",
-  company: "Uzinfocom",
+  company: "Open Source at Uzinfocom",
   dates: dates-helper(start-date: "Apr 2025", end-date: "Present"),
 )
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+- Designed principles, policy and structure of the team.
+- Developed an operating system on top of NixOS Linux distribution:
+  - Implemented software store center for easier software download.
+  - Implemented nix-conf editor for easier nix configuration viewing & modification.
+  - Implemented module manager for easier system tweaking.
+  - Implemented superset package manager on top of nix for xinux named `xin`.
+  - Developed various research oriented projects for NixOS including registry indexing and graph monitoring.
+- Contributed to nixpkgs by adding `e-imzo` package and its modules to the package registry.
+- Reshaped Xinux community's vision on Linux ecosystem by renovating whole infrastructure and goals.
+- Maintained fork of nixpkgs for Xinux operating system.
+- Maintained fork of nix-darwin: nix modules for darwin via xinux-org forked nixpkgs.
+- Maintained a messanger built on top of Matrix protocol and its Element derived fork components:
+  - iOS mobile application for the messenger.
+  - Authentication service for synapse.
+  - Synapse matrix homeserver.
 
 #work(
   title: "Embedded Software Engineer",
   location: "Tashkent, Uzbekistan",
-  company: "Uzinfocom",
+  company: "MyID & AI at Uzinfocom",
   dates: dates-helper(start-date: "Sep 2024", end-date: "Apr 2025"),
 )
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+- Participated in deployment of PalmID system throughout whole *Uzbekistan Subway Line*.
+- Developed Encryption protection enclave for deployed software in the system.
+- Developed operating system setups & instances for PalmID deployment.
+- Participated in hardware side development of PalmID infrastructure.
+- Conducted research on NixOS on Raspberry Pi 5 for declarative deployments & duplication.
+- Developed various PoC driver components for the PalmID system.
 
 #work(
   title: "Low Level & Rust Software Engineer",
   location: "Tashkent, Uzbekistan",
-  company: "Uzinfocom",
+  company: "ccTLD at Uzinfocom",
   dates: dates-helper(start-date: "Jul 2023", end-date: "Sep 2024"),
 )
 - Played God with tiny molecules, making them dance to uncover the secrets of the universe
@@ -80,7 +97,7 @@
 #work(
   title: "Development Team Lead",
   location: "Tashkent, Uzbekistan",
-  company: "Uzinfocom",
+  company: "ccTLD at Uzinfocom",
   dates: dates-helper(start-date: "Oct 2022", end-date: "Jun 2023"),
 )
 - Played God with tiny molecules, making them dance to uncover the secrets of the universe
@@ -90,7 +107,7 @@
 #work(
   title: "Software Engineer",
   location: "Tashkent, Uzbekistan",
-  company: "Uzinfocom",
+  company: "ccTLD at Uzinfocom",
   dates: dates-helper(start-date: "Apr 2022", end-date: "Oct 2022"),
 )
 - Played God with tiny molecules, making them dance to uncover the secrets of the universe
@@ -127,29 +144,7 @@
 - Conducted researches on assembly optimizations with professors at the university.
 - Built variety categories of projects using C/C++ to support growing infrastructures.
 
-== Notable Projects
-
-#project(
-  name: "Xinux Community & Linux Distro (Before Acquisition)",
-  // Role is optional
-  role: "Maintainer",
-  // Dates is optional
-  dates: dates-helper(start-date: "Dec 2020", end-date: "Apr 2022"),
-  // URL is also optional
-  url: "https://xinux.uz",
-)
-- Founded and shaped a community of Linux enthusiasts which become the only community to contribute to global Linux related projects & communities.
-- Taught early generation of members to fundamentals of Linux and its internals using Arch Linux.
-- Developed various community assistants (e.g telegram bots) to help newcomers with learning materials and resources.
-- Developed early version of Xinux, an Arch Linux based Linux distribution, DX oriented operating system.
-- Initiated localization project aimed to translate Linux ecosystem to Uzbek language.
-- Developed various components and utilities for easier adoption:
-  - greeter on top of lightdm-webkit2
-  - calamares installer fork
-  - aptpac fork
-  - mirror-picker for mirror automation
-  - package manager on top of pacman
-  - sdk on typescript for arch linux package registry
+== Notable Side Projects
 
 #project(
   name: "Sark (Sokhibjon's ARM RaspberryPi Kernel)",
@@ -160,7 +155,7 @@
   // URL is also optional
   url: "https://sark.kibertexnik.uz/kernel/",
 )
-- In attempt to reduce size of Linux kernel, I developed kernel on Rust for Raspberry Pi model 3, 4, 5.
+- While attempting to reduce size of Linux kernel for embedded deployment, I developed kernel on Rust entirely from scratch for Raspberry Pi model 3, 4, 5.
   - Implemented safe globals and synchronization
   - Implemented drivers:
     - GPIO
@@ -181,6 +176,28 @@
 - Implemented registry based virtual machine on Rust for integration with interpreter.
 - Implemented libgccjit bindings for the rust for further AOT implementation.
 - Implemented fundamental standard library for the language to be able to write something on it (with cli example).
+
+#project(
+  name: "Xinux Community & Linux Distro (Before Acquisition)",
+  // Role is optional
+  role: "Maintainer",
+  // Dates is optional
+  dates: dates-helper(start-date: "Dec 2020", end-date: "Jun 2022"),
+  // URL is also optional
+  url: "https://xinux.uz",
+)
+- Founded and shaped a community of Linux enthusiasts which become the only community to contribute to global Linux related projects & communities.
+- Taught early generation of members to fundamentals of Linux and its internals using Arch Linux.
+- Developed various community assistants (e.g telegram bots) to help newcomers with learning materials and resources.
+- Developed early version of Xinux, an Arch Linux based Linux distribution, DX oriented operating system.
+- Initiated localization project aimed to translate Linux ecosystem to Uzbek language.
+- Developed various components and utilities for easier adoption:
+  - greeter on top of lightdm-webkit2
+  - calamares installer fork
+  - aptpac fork
+  - mirror-picker for mirror automation
+  - package manager on top of pacman
+  - sdk on typescript for arch linux package registry
 
 == Extracurricular Activities
 
