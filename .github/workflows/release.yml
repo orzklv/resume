@@ -20,14 +20,14 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@main
 
-      - name: Build nix package
-        run: nix build .
+      - name: Build da résume
+        run: nix-shell --run "typst compile ./resume.typ ./resume.pdf"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           name: Resume ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
-          files: result/*.pdf
+          files: ./*.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -25,14 +25,10 @@
         # Nixpkgs packages for the current system
         {
           # Formatter for your nix files, available through 'nix fmt'
-          # Other options beside 'alejandra' include 'nixpkgs-fmt'
           formatter = pkgs.alejandra;
 
           # Development shells
           devShells.default = import ./shell.nix {inherit pkgs;};
-
-          # Output package
-          packages.default = pkgs.callPackage ./. {};
         }
     );
 }

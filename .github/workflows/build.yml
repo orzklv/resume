@@ -12,5 +12,5 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@main
 
-      - name: Build nix package
-        run: nix build .
+      - name: Build da résume
+        run: nix-shell --run "typst compile ./resume.typ"
