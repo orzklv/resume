@@ -9,7 +9,7 @@
     import nixpkgs {overlays = [];},
   ...
 }:
-pkgs.stdenv.mkDerivation {
+pkgs.stdenvNoCC.mkDerivation {
   name = "resume";
 
   nativeBuildInputs = with pkgs; [
