@@ -13,6 +13,11 @@ pkgs.stdenv.mkDerivation {
   name = "resume";
 
   nativeBuildInputs = with pkgs; [
+    # LaTeX
+    typst
+    typstyle
+    typst-live
+
     # Tools
     git
     just

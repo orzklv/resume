@@ -1,5 +1,8 @@
 # Nix output
 result/
 
+# Current output
+*.pdf
+
 # Direnv
 .direnv

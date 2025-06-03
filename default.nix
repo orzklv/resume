@@ -1,32 +1,24 @@
-{pkgs ? import <nixpkgs> {}}: let
-  tex = pkgs.texlive.combine {
-    inherit (pkgs.texlive) scheme-full latex-bin latexmk;
-  };
-in
-  pkgs.stdenvNoCC.mkDerivation rec {
-    pname = "resume";
-    version = "2025.06.03";
+{pkgs ? import <nixpkgs> {}}:
+pkgs.stdenvNoCC.mkDerivation rec {
+  pname = "resume";
+  version = "2025.06.03";
 
-    src = ./.;
-    nativeBuildInputs = with pkgs; [coreutils tex];
-    phases = ["unpackPhase" "buildPhase" "installPhase"];
+  src = ./.;
+  nativeBuildInputs = with pkgs; [typst];
+  buildInputs = nativeBuildInputs;
 
-    TEXMFHOME = ".cache";
-    TEXMFVAR = "${TEXMFVAR}/texmf-var";
+  phases = ["unpackPhase" "buildPhase" "installPhase"];
 
-    buildPhase = ''
-      # Create cache directory
-      mkdir -p ${TEXMFVAR}
+  buildPhase = ''
+    # Render the resume from typst
+    typst compile ./resume.typ ./resume.pdf
+  '';
 
-      # Render the resume from latex
-      latexmk -interaction=nonstopmode -pdf -lualatex ./resume.tex
-    '';
+  installPhase = ''
+    # Create output
+    mkdir -p $out
 
-    installPhase = ''
-      # Create output
-      mkdir -p $out
-
-      # Copy the results
-      cp cv.pdf $out
-    '';
-  }
+    # Copy the results
+    cp resume.pdf $out
+  '';
+}
