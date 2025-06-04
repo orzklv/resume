@@ -14,7 +14,7 @@
   github: github,
   phone: phone,
   personal-site: personal-site,
-  accent-color: "#26428b",
+  accent-color: "#fc0307",
   font: "New Computer Modern",
   paper: "us-letter",
   author-position: left,
@@ -103,10 +103,11 @@
   dates: dates-helper(start-date: "Oct 2022", end-date: "Jun 2023"),
 )
 - Participated in acquisition of `Xinux` open source project under the organization.
-- Implemented the RDAP protocol on Rust.
+- Participated in deployment of NS8 on top of Xinux operating system [#link("https://whois.cctld.uz/news/?detail=1508&lang=eng")[official news]].
+- Implemented the RDAP protocol on Rust [#link("https://cctld.uz/news/?detail=1498&lang=&lang=eng")[official news]].
 - Implemented many network interface drivers for .uz TLD infrastructure.
 - Implemented VCard abstractions on Rust and published as library for public use.
-- Co-authored uzbek linguistics library & platforms written on Rust.
+- Co-authored uzbek linguistics library & platforms written on Rust namely *Korrektor*.
 - Participated in implementation of various social projects mostly being development of complex telegram survey bots.
 
 #work(
