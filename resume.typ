@@ -90,9 +90,10 @@
   company: "ccTLD at Uzinfocom",
   dates: dates-helper(start-date: "Jul 2023", end-date: "Sep 2024"),
 )
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+- Co-authored system manager software written on Qt5.
+- Co-authored onvif protocol implementation.
+- Co-authored unified system server implementation.
+- Reverse engineered working complex hardware systems.
 
 #work(
   title: "Development Team Lead",
@@ -100,9 +101,12 @@
   company: "ccTLD at Uzinfocom",
   dates: dates-helper(start-date: "Oct 2022", end-date: "Jun 2023"),
 )
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+- Participated in acquisition of `Xinux` open source project under the organization.
+- Implemented the RDAP protocol on Rust.
+- Implemented many network interface drivers for .uz TLD infrastructure.
+- Implemented VCard abstractions on Rust and published as library for public use.
+- Co-authored uzbek linguistics library & platforms written on Rust.
+- Participated in implementation of various social projects mostly being development of complex telegram survey bots.
 
 #work(
   title: "Software Engineer",
@@ -110,9 +114,9 @@
   company: "ccTLD at Uzinfocom",
   dates: dates-helper(start-date: "Apr 2022", end-date: "Oct 2022"),
 )
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
+- Implemented an MVP concept of RDAP protocol for the uzbek internet on TypeScript/Deno.
+- Testing / Benchmarking other implementations using Apache JMeter and many more.
+- Implementing test suites for domain name oriented softwares to test compatibility with the infrastructure.
 
 #work(
   title: "Lead Open Source Engineer",
@@ -120,20 +124,22 @@
   company: "GitHub, Open Source",
   dates: dates-helper(start-date: "Oct 2019", end-date: "Mar 2022"),
 )
-- Taught robots to predict when (and how much!) humans will empty their wallets at the doctor's office
-- Developed HIPAA-compliant digital signatures, because doctors' handwriting wasn't illegible enough already
-- Turned spaghetti code into a gourmet dish, making other interns drool with envy
+- Took part in maintainership of a programming language development.
+- Took part in maintainership of a Linux community and its distribution hosted in Uzbekistan.
+- Became LLVM committer and contributed to the project by sending platform specific bug-fixes.
+- Contributed to other open source projects like `nextjs by zeit`, `scoop`, `deno` by sending bug fixes.
+
+Additional: Later, in 2022 the project `Xinux` got acquired by Uzinfocom by ending its concept phase.
 
 #work(
-  title: "Freelance Software Engineer",
+  title: "Freelance Full Stack Developer",
   location: "Remote",
   company: "Freelancer.com",
   dates: dates-helper(start-date: "Feb 2017", end-date: "Sep 2019"),
 )
-- Scaled user base from 10 to 2000+, accidentally becoming a small wealthy nation in the process
-- Crafted Bash scripts so clever they occasionally made other engineers weep with joy
-- Automated support responses, reducing human interaction to a level that would make introverts proud
-- Built a documentation site that actually got read, breaking the ancient RTFM curse
+- Closed more than 180 contracts & offers with marching 4.8 star review.
+- Participated in huge contract based team works by huge companies across the globe.
+- Completed various categories of submissions including web, bug-hunting, sometimes mobile development and devops.
 
 #work(
   title: "Intern Developer & Staff",
@@ -184,7 +190,7 @@
   // Dates is optional
   dates: dates-helper(start-date: "Dec 2020", end-date: "Jun 2022"),
   // URL is also optional
-  url: "https://xinux.uz",
+  url: "https://github.com/xinux-org",
 )
 - Founded and shaped a community of Linux enthusiasts which become the only community to contribute to global Linux related projects & communities.
 - Taught early generation of members to fundamentals of Linux and its internals using Arch Linux.
@@ -220,7 +226,7 @@
 )
 - Researched technologies & tech stacks within the interest of the company.
 - Supported and maintained blockchain infrastructure built on top of Ethereum.
-- Engineered and supported devops infrastructure for the projects maintained by the team.
+- Engineered and supported devops infrastructure (esxi, later proxmox stack) for the projects maintained by the team.
 
 #extracurriculars(
   activity: "Mad Maids",
@@ -247,7 +253,7 @@
 == Education
 
 #edu(
-  institution: "Westminster University (Not to be associated)",
+  institution: "Westminster International University in Tashkent (Not to be associated)",
   location: "Tashkent, Uzbekistan",
   dates: dates-helper(start-date: "Sep 2019", end-date: "Mar 2024"),
   degree: "Bachelor's of Science, Business Information System",
@@ -278,6 +284,6 @@ Additional: My time at Westminster International University in Tashkent was unpr
 
 == Skills
 - *Programming Languages*: Rust, C/C++, Objective-C, Swift, Assembly, Nix, Bash, JavaScript, TypeScript, Python
-- *Technologies*: NixOS, Linux, FreeBSD, MacOS (Darwin), UNIX, LLVM, Git, Docker, Caddy, NGINX, Actix, Yew, React, Tailwind CSS
+- *Technologies*: NixOS, Any Imperative Linux Distros, Linux, FreeBSD, MacOS (Darwin), UNIX, LLVM, Git, Docker, Caddy, NGINX, Actix, Yew, React, Tailwind CSS
 - *Development*: Operating Systems, Embedded, Kernel, Programming Language, Web
 - *Activities*: Open Source, Community Development, Maintainership, Leading Development, Software Designing, Engineering
