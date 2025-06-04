@@ -9,8 +9,6 @@
 <p align="center">
     <img align="center" src="https://img.shields.io/github/languages/top/orzklv/resume?style=flat&logo=nixos&logoColor=ffffff&labelColor=242424&color=242424" alt="Top Used Language">
     <a href="https://github.com/orzklv/resume/actions/workflows/build.yml"><img align="center" src="https://img.shields.io/github/actions/workflow/status/orzklv/resume/build.yml?style=flat&logo=github&logoColor=ffffff&labelColor=242424&color=242424" alt="Build CI"></a>
-    <a href="https://github.com/orzklv/resume/actions/workflows/build.yml"><img align="center" src="https://img.shields.io/github/actions/workflow/status/orzklv/resume/release.yml?style=flat&logo=github&logoColor=ffffff&labelColor=242424&color=242424" alt="Release CI"></a>
-
 </p>
 
 ## About
