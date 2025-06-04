@@ -93,7 +93,8 @@
 - Co-authored system manager software written on Qt5.
 - Co-authored onvif protocol implementation.
 - Co-authored unified system server implementation.
-- Reverse engineered working complex hardware systems.
+- Reverse engineered deployed complex hardware systems.
+- Researched NixOS and its capibilities for low-level systems use.
 
 #work(
   title: "Development Team Lead",
