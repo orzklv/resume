@@ -17,7 +17,7 @@ After getting disgusted what LinkedIn has become, I decided to start preparing m
 
 > Of course, updates are handled manually, I'm not righ enough yet to have my own personal writer.
 
-# Rendering the resume
+## Rendering the resume
 
 As the resume is written on typst format, all you need is to activate development environment using nix package manager and then use typst compiler to render pdf version of the resume.
 
