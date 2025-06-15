@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <h3 align="center">My nix configurations for all my NixOS & Apple machines.</h3>
+    <h3 align="center">A story about my career and life.</h3>
 </p>
 
 <p align="center">
