@@ -50,7 +50,7 @@
 - Co-authored & contributed to more than 50+ projects hosted, provided and sponsored by Floss Uzbekistan.
 
 #work(
-  title: "Head of Open Source Team & Movement",
+  title: "Head of Open Source Department",
   location: "Tashkent, Uzbekistan",
   company: "Open Source at Uzinfocom",
   dates: dates-helper(start-date: "Apr 2025", end-date: "Present"),
@@ -62,14 +62,17 @@
   - Implemented module manager for easier system tweaking.
   - Implemented superset package manager on top of nix for xinux named `xin`.
   - Developed various research oriented projects for NixOS including registry indexing and graph monitoring.
+  - Managed implementation of GTK app on Rust namely `e-imzo-manager`.
 - Contributed to nixpkgs by adding `e-imzo` package and its modules to the package registry.
 - Reshaped Xinux community's vision on Linux ecosystem by renovating whole infrastructure and goals.
 - Maintained fork of nixpkgs for Xinux operating system.
 - Maintained fork of nix-darwin: nix modules for darwin via xinux-org forked nixpkgs.
-- Maintained a messanger built on top of Matrix protocol and its Element derived fork components:
+- Wrote nix abstractions and configurations for matrix, a messenger infrastructure deployed on bare-metal NixOS.
+- Maintained a messanger built on top of Matrix protocol and its Element derived fork components for governmental use:
   - iOS mobile application for the messenger.
-  - Authentication service for synapse.
-  - Synapse matrix homeserver.
+  - Audio/Video calls (livekit)
+  - Authentication service synapse (matrix-authentication-service).
+  - Synapse matrix homeserver (matrix-synapse).
 
 #work(
   title: "Embedded Software Engineer",
@@ -255,7 +258,7 @@ Additional: Later, in 2022 the project `Xinux` got acquired by Uzinfocom by endi
 == Education
 
 #edu(
-  institution: "Westminster International University in Tashkent (Not to be associated)",
+  institution: "University of Westminster UK",
   location: "Tashkent, Uzbekistan",
   dates: dates-helper(start-date: "Sep 2019", end-date: "Mar 2024"),
   degree: "Bachelor's of Science, Business Information System",
@@ -264,8 +267,6 @@ Additional: Later, in 2022 the project `Xinux` got acquired by Uzinfocom by endi
 - Grade: Upper Second class honours
 - Relevant Coursework: Data Structures, Program Development, Application of Business in IT, Statistics: Core, Computer Science Fundamentals, Systems Engineering.
 - Paperwork: Programming language compiler engineering & hybrid compilation.
-
-Additional: My time at Westminster International University in Tashkent was unproductive due to an outdated curriculum, a narrow focus on Object-Oriented Programming, and excessive reliance on Microsoft products. The program failed to cover essential paradigms like Functional and Imperative programming, and innovation was often discouraged. Administrative responsiveness to student concerns was lacking, making constructive feedback ineffective. Given these shortcomings, I cannot recommend this university to those serious about an IT career. I kindly request not to be associated with this institution, as I do not recognize the years I spent there.
 
 #certificates(
   name: "WIUT Graduation",
