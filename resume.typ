@@ -259,7 +259,7 @@ Additional: Later, in 2022 the project `Xinux` got acquired by Uzinfocom by endi
 
 #edu(
   institution: "University of Westminster UK",
-  location: "Tashkent, Uzbekistan",
+  location: "London, UK",
   dates: dates-helper(start-date: "Sep 2019", end-date: "Mar 2024"),
   degree: "Bachelor's of Science, Business Information System",
   consistent: true
