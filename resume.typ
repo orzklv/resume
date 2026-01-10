@@ -204,11 +204,13 @@ Additional: Later, in 2022 the project `Xinux` got acquired by Uzinfocom by endi
 - Convinced Adminsitration to do open source development (before the official department was established within the company).
 - Developed and participated in various kinds of experiments including:
   - Developed a service "Maestro" for staffs use to make LDAP logging and network management easier published at [#link("https://github.com/uzinfocom-org/maestro")[github]].
-  - Co-authored uzbek linguistic libraries and platforms written on Rust namely "Korrektor".
-  - Co-authored onvif protocol implementation on PHP.
-  - Participated in development of microcomputer using Atmega328 that can let users write and execute assembly instructions.
+  - Co-authored uzbek linguistic libraries and platforms written on Rust namely "Korrektor" published at [#link("https://crates.io/crates/korrektor")[crates.io]].
+  - Co-authored onvif protocol implementation on PHP published at [#link("https://github.com/uzinfocom-org/onvif")[github]].
+  - Participated in development of microcomputer using Atmega328 that can let users write and execute assembly instructions published at [#link("https://github.com/uzinfocom-org/micro-uno")[github]].
   - Developed projects within the interest of other departments including websites and tools.
-- Open Sourced the early implementation of RDAP protocol written on TypeScript/Deno for the uzbek internet.
+  - GitHub to Telegram relay published at [#link("https://github.com/uzinfocom-org/webhook")[github]]
+  - Telegram bot for job posting published at [#link("https://github.com/uzinfocom-org/jobful")[github]]
+- Open Sourced the early implementation of RDAP protocol written on TypeScript/Deno for the uzbek internet at [#link("https://github.com/uzinfocom-org/rdap-wtc")[github]].
 
 #extracurriculars(
   activity: "Uzinfocom Research and Development",
