@@ -4,7 +4,7 @@
 #let location = "Tashkent, Uzbekistan"
 #let email = "sakhib@orzklv.uz"
 #let github = "github.com/orzklv"
-#let phone = "+998 (33) 797-77-67"
+#let phone = ""
 #let personal-site = "orzklv.uz"
 
 #show: resume.with(
@@ -172,21 +172,6 @@ Additional: Later, in 2022 the project `Xinux` got acquired by Uzinfocom by endi
     - GPIO
     - UART
   - Implemented BSPs, timestamps and console.
-
-#project(
-  name: "Osmon Programming Language",
-  // Role is optional
-  role: "Maintainer",
-  // Dates is optional
-  dates: dates-helper(start-date: "Apr 2021", end-date: "May 2023"),
-  // URL is also optional
-  url: "https://github.com/osmon-lang",
-)
-- Maintained the project which had its own community consisting more than 100+ users in its peak.
-- Implemented programming language frontend using uzbek language on Rust for further integration with language's hybrid backend infrastructure.
-- Implemented registry based virtual machine on Rust for integration with interpreter.
-- Implemented libgccjit bindings for the rust for further AOT implementation.
-- Implemented fundamental standard library for the language to be able to write something on it (with cli example).
 
 #project(
   name: "Xinux Community & Linux Distro (Before Acquisition)",
