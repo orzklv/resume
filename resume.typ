@@ -38,6 +38,14 @@
 == Work Experience
 
 #work(
+  title: "Advisor, Analyst & Researcher",
+  location: "Tashkent, Uzbekistan",
+  company: "Digital Government (EGOV)",
+  dates: dates-helper(start-date: "December 2026", end-date: "Present"),
+)
+- Participated in research, analyzing, designing and development of the Insurance Digitalization Project infrastructure.
+
+#work(
   title: "Community Lead & Maintainer",
   location: "Tashkent, Uzbekistan",
   company: "Floss Uzbekistan",
