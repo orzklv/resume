@@ -1,18 +1,17 @@
 {
-  pkgs ? let
-    lock = (builtins.fromJSON (builtins.readFile ./flake.lock)).nodes.nixpkgs.locked;
-    nixpkgs = fetchTarball {
-      url = "https://github.com/nixos/nixpkgs/archive/${lock.rev}.tar.gz";
-      sha256 = lock.narHash;
-    };
-  in
-    import nixpkgs {overlays = [];},
+  pkgs ?
+    let
+      lock = (builtins.fromJSON (builtins.readFile ./flake.lock)).nodes.nixpkgs.locked;
+      nixpkgs = fetchTarball {
+        url = "https://github.com/nixos/nixpkgs/archive/${lock.rev}.tar.gz";
+        sha256 = lock.narHash;
+      };
+    in
+    import nixpkgs { overlays = [ ]; },
   ...
 }:
-pkgs.stdenvNoCC.mkDerivation {
-  name = "resume";
-
-  nativeBuildInputs = with pkgs; [
+pkgs.mkShell {
+  packages = with pkgs; [
     # LaTeX
     typst
     typstyle
@@ -26,6 +25,6 @@ pkgs.stdenvNoCC.mkDerivation {
     nixd
     statix
     deadnix
-    alejandra
+    nixfmt
   ];
 }

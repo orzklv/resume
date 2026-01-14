@@ -8,27 +8,29 @@
     # But also, if you are willing to live in bleeding edege
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
-    # Flake utils for eachSystem
-    flake-utils.url = "github:numtide/flake-utils";
+    # Flake-parts utilities
+    flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    flake-utils,
-    ...
-  }:
-    flake-utils.lib.eachDefaultSystem (
-      system: let
-        pkgs = nixpkgs.legacyPackages.${system};
-      in
-        # Nixpkgs packages for the current system
-        {
-          # Formatter for your nix files, available through 'nix fmt'
-          formatter = pkgs.alejandra;
+  outputs =
+    { flake-parts, ... }@inputs:
+    flake-parts.lib.mkFlake { inherit inputs; } (
+      { ... }:
+      {
+        systems = [
+          "x86_64-linux"
+          "aarch64-linux"
+          "aarch64-darwin"
+        ];
+        perSystem =
+          { pkgs, ... }:
+          {
+            # Formatter for your nix files, available through 'nix fmt'
+            formatter = pkgs.nixfmt-tree;
 
-          # Development shells
-          devShells.default = import ./shell.nix {inherit pkgs;};
-        }
+            # Development shells
+            devShells.default = import ./shell.nix { inherit pkgs; };
+          };
+      }
     );
 }
