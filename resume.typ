@@ -43,7 +43,10 @@
   company: "Digital Government (EGOV)",
   dates: dates-helper(start-date: "December 2026", end-date: "Present"),
 )
+- Convince the department to do Open Source and create page at #link("https://github.com/egov-uz")[GitHub]
 - Participated in research, analyzing, designing and development of the Insurance Digitalization Project infrastructure.
+  - Implement MVP stage server infrastructure published at [#link("https://github.com/egov-uz/digital-insurance")[github]].
+  - Implement conformance utility for infrastructure published at [#link("https://github.com/egov-uz/digital-insurance")[github]].
 
 #work(
   title: "Community Lead & Maintainer",
